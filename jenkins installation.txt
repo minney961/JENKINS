@@ -1,1 +1,28 @@
-jenkins installation
+jenkins installation - for jenkins installation we need to download some pre-requisites:
+
+PREREQUISITIES:
+
+JDK- DOWNLOAD:
+
+STEP-1: Install java jdk --> x64 installer --> .exe file download --> install
+
+STEP:2: C drive --> program files --> java --> jdk --> copy the path
+
+STEP:3: setup environment variables: search for edit environment variables --> environment variables --> system variables --> path --> edit -->new --> paste the copied path and click ok
+
+STEP:4: Verify whether java installed or not: goto cmd --> type command java --version.
+
+JENKINS - DOWNLOAD:
+
+STEP:1: Goto Browser --> download jenkins --> https://www.jenkins.io --> for windows --> download jenkins.msi --> install --> run service as local system --> 
+
+-->port 8080- test port --> firwall exception- install -->next -->next--> install
+
+STEP:2:  Goto browser --> localhost:8080--> asks for admin password (copy the path given above this tab and goto files in our mahine and paste the path and copy initial password and paste--
+
+--> then install suggested plugins -->create username, password, add mail and save --> start suing jenkins
+
+Note:
+To login into jenkins we have two ways:
+1. using localhost:8080
+2. goto cmd -->ipconfig: -->copy ipv4 address and paste in browser with :8080 adding.
